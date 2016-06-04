@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.compscitutorials.basigarcia.navigationdrawervideotutorial.MainFragment">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University of Manchester"
+            android:textSize="30sp"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMP61242"
+            android:textSize="30sp"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error control in mobile communication"
+            android:textSize="20sp"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task1.1:Receive ASCII text message"
+            android:textSize="18sp"
+            android:layout_marginTop="250dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task1.2:CRC and bit-errors"
+            android:textSize="18sp"
+            android:layout_marginTop="280dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task1.3:CRC and more bit-errors"
+            android:textSize="18sp"
+            android:layout_marginTop="310dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task1.4:DSSS Coding with CRC and bit-errors"
+            android:textSize="18sp"
+            android:layout_marginTop="340dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task1.5:Convolutional coding and Viterbi decoding"
+            android:textSize="18sp"
+            android:layout_marginTop="370dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task1.6:Speech transmission and packet-loss concealment"
+            android:textSize="18sp"
+            android:layout_marginTop="420dp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

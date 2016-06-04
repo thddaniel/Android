@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.compscitutorials.basigarcia.navigationdrawervideotutorial.Task3">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is task 3"
+
+            android:textSize="50sp"
+
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/task3_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/task3_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:layout_alignTop="@+id/task3_result"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/startTask3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:textSize="28sp"
+
+            android:layout_marginTop="180dp"
+
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

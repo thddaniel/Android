@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.compscitutorials.basigarcia.navigationdrawervideotutorial.Task6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is task 6"
+
+        android:textSize="50sp"
+
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/task6_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Received packets complete with errors."
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/startTask6_1"
+        android:layout_alignStart="@+id/textView4" />
+
+    <ProgressBar
+        android:id="@+id/task6_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_alignTop="@+id/task6_result"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/startTask6_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+
+        android:layout_marginTop="50dp"
+
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:id="@+id/startTask6_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+        android:layout_marginTop="230dp"
+        android:layout_alignStart="@+id/startTask6_1" />
+
+    <Button
+        android:id="@+id/startTask6_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+        android:layout_marginTop="300dp"
+        android:layout_alignStart="@+id/startTask6_1" />
+
+    <Button
+        android:id="@+id/changeStrategy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+
+        android:layout_above="@+id/textView3"
+        android:layout_alignEnd="@+id/task6_progress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Replaced with zero packets"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/startTask6_2"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="a repetition of the previous correctly
+received packet. "
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/startTask6_3"
+        android:layout_alignStart="@+id/task6_progress" />
+
+</RelativeLayout>

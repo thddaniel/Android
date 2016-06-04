@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/task1"
+            android:title="Task1.1" />
+        <item android:id="@+id/task2"
+            android:title="Task1.2" />
+        <item android:id="@+id/task3"
+            android:title="Task1.3" />
+        <item android:id="@+id/task4"
+            android:title="Task1.4" />
+        <item android:id="@+id/task5"
+            android:title="Task1.5" />
+        <item android:id="@+id/task6"
+            android:title="Task1.6" />
+    </group>
+
+
+</menu>
